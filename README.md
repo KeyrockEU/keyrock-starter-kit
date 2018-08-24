@@ -9,7 +9,7 @@
 
 ```sh
 # clone this repo
-git clone git@gitlab.com:edse/keyrock-starter-kit.git my-project
+git clone git@github.com:KeyrockEU/keyrock-starter-kit.git my-project
 cd my-project
 
 # install dependencies
@@ -120,6 +120,4 @@ Both tasks are run by the CI and makes it to fail if anyone fails.
 
 ## Contributing
 
-Found a bug? [Open an issue](https://gitlab.com/edse/keyrock-starter-kit/issues/new). [Merge requests](https://gitlab.com/edse/keyrock-starter-kit/merge_requests/new) accepted too.
-
-More documentation can be found in the [Wiki](https://gitlab.com/edse/keyrock-starter-kit/wikis/home).
+Found a bug? [Open an issue](https://github.com/KeyrockEU/keyrock-starter-kit/issues/new). [Merge requests](https://github.com/KeyrockEU/keyrock-starter-kit/merge_requests/new) accepted too.
