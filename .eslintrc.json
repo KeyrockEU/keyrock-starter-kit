@@ -1,0 +1,26 @@
+{
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "plugins": ["import"],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-restricted-globals": 0,
+    "no-console": "error",
+    "no-unused-vars": "error",
+    "prefer-destructuring": [
+      "warn",
+      {
+        "object": true,
+        "array": true
+      }
+    ],
+    "no-param-reassign": "warn",
+    "new-cap": "warn",
+    "class-methods-use-this": "warn"
+  }
+}

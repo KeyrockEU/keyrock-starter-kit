@@ -1,0 +1,8 @@
+{
+  "logger": {
+    "level": "verbose",
+    "logdna": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "logger": {
+    "level": "LOG_LEVEL"
+  },
+  "api": {
+    "port": "PORT"
+  }
+}

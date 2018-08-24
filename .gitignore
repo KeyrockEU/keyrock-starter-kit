@@ -1,0 +1,10 @@
+*.iml
+.idea/
+node_modules/
+/dist
+/logs
+/*.log
+.DS_Store
+/package-lock.json
+dump.rdb
+.env

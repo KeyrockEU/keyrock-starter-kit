@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "keyrock-starter-kit",
+      "script": "npm",
+      "args": "start",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss.SSS"
+    }
+  ],
+  "deploy": {
+    "staging": {
+      "user": "ubuntu",
+      "host": [],
+      "repo": "git@gitlab.com:edse/keyrock-starter-kit.git",
+      "ref": "origin/dev",
+      "path": "/home/ubuntu/projects/keyrock-starter-kit",
+      "post-deploy": "source ~/.bashrc && yarn --ignore-engines && yarn clean && yarn build && pm2 startOrRestart --update-env process.json"
+    },
+    "production": {
+      "user": "ubuntu",
+      "host": [],
+      "repo": "git@gitlab.com:edse/keyrock-starter-kit.git",
+      "ref": "origin/master",
+      "path": "/home/ubuntu/keyrock-starter-kit",
+      "post-deploy": "source ~/.bashrc && git checkout master && yarn --ignore-engines && yarn clean && yarn build && pm2 startOrRestart process.json --update-env"
+    }
+  }
+}

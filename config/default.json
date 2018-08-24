@@ -1,0 +1,25 @@
+{
+  "logger": {
+    "level": "info",
+    "logdna": {
+      "enabled": false,
+      "apiKey": ""
+    }
+  },
+  "bugsnag": {
+    "key": "",
+    "enabled": false,
+    "stages": ["production", "staging"]
+  },
+  "signalfx": {
+    "enabled": false,
+    "token": ""
+  },
+  "api": {
+    "port": 8080,
+    "bodyLimit": "100kb",
+    "corsHeaders": ["Link"],
+    "appKey": "jn44bI9gmIzzkYC",
+    "allowedKeys": []
+  }
+}

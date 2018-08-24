@@ -1,0 +1,7 @@
+*
+!.gitignore
+!default.json
+!production.json
+!staging.json
+!test.json
+!custom-environment-variables.json

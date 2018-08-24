@@ -1,0 +1,7 @@
+before_script:
+  - yarn
+
+lint:
+  image: node:10
+  script:
+    - yarn run lint
