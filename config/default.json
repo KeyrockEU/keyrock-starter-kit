@@ -18,8 +18,6 @@
   "api": {
     "port": 8080,
     "bodyLimit": "100kb",
-    "corsHeaders": ["Link"],
-    "appKey": "jn44bI9gmIzzkYC",
-    "allowedKeys": []
+    "corsHeaders": ["Link"]
   }
 }
